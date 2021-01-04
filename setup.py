@@ -1,16 +1,15 @@
 from setuptools import setup
 
 setup(
-    name='wkhtmltopdf-pack',
-    version='0.12.3.0.post1',
-    url='https://github.com/illarra/wkhtmltopdf-pack',
-    author='illarra',
-    author_email='team@illarra.com',
+    name='wkhtmltoimage-pack',
+    version='0.12.5',
+    url='https://github.com/mgsh/wkhtmltoimage-pack',
+    author='Magesh Dhasayyan',
     license='MIT',
-    data_files=[('bin', ['bin/wkhtmltopdf-pack'])],
-    description='wkhtmltopdf 0.12.3.0 for Python on Heroku buildpacks',
+    data_files=[('bin', ['bin/wkhtmltoimage-pack'])],
+    description='wkhtmltoimage 0.12.5 for Python',
     long_description=open('README.rst').read(),
-    keywords='pdf wkhtmltopdf paas heroku cloudcontrol buildpack',
+    keywords='wkhtmltoimage paas',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
